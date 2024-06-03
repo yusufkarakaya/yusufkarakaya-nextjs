@@ -12,4 +12,4 @@ cd yusufkarakayadev
 npm install
 ```
 
-this project deployed on Vercel - https://yusufkarakaya-nextjs.vercel.app/
+this project deployed on Vercel - https://yusufkarakaya-nextjs.vercel.app
