@@ -10,9 +10,14 @@ export default function Home() {
               <strong>Yusuf Karakaya</strong>
             </h1>
             <p className="mt-5">
-              I&apos;m working as a Senior Associate at RooneyPartners. At the
-              firm, I execute website development and search engine optimization
-              and search marketing for a wide range of clients.
+              Experienced Web Developer with over 4 years of expertise in
+              full-stack development and web design, specializing in JavaScript,
+              TypeScript, and modern web technologies. Proficient in building
+              and maintaining websites using WordPress, Webflow, and Next.js.
+              Adept at creating responsive, user-friendly interfaces with a
+              focus on enhancing user interaction and engagement. Strong
+              background in setting up and optimizing Google Ads campaigns to
+              drive productivity and increase visibility.
             </p>
             <br />
             <strong>Skills:</strong>
@@ -97,6 +102,20 @@ export default function Home() {
                   />
                 </a>
               </span>
+            </div>
+            <div>
+              <h2 className="mt-5">
+                <strong>Contact Information</strong>
+              </h2>
+              <p>
+                Email:{" "}
+                <a
+                  href="mailto:yusufkarakaya92@gmail.com"
+                  className="text-blue-500"
+                >
+                  yusufkarakaya92@gmail.com
+                </a>
+              </p>
             </div>
             <div>
               <h2 className="mt-5">
