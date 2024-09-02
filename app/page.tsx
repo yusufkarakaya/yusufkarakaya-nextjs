@@ -11,13 +11,10 @@ export default function Home() {
             </h1>
             <p className="mt-5">
               Experienced Web Developer with over 4 years of expertise in
-              full-stack development and web design, specializing in JavaScript,
-              TypeScript, and modern web technologies. Proficient in building
-              and maintaining websites using WordPress, Webflow, and Next.js.
-              Adept at creating responsive, user-friendly interfaces with a
-              focus on enhancing user interaction and engagement. Strong
-              background in setting up and optimizing Google Ads campaigns to
-              drive productivity and increase visibility.
+              full-stack development, specializing in CMS projects like
+              WordPress and Webflow. Proficient in modern web technologies,
+              including JavaScript, Next.js, React, and Node.js, with a strong
+              focus on building user-friendly and responsive websites.
             </p>
             <br />
             <strong>Skills:</strong>
