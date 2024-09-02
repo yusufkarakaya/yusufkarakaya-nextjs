@@ -33,7 +33,7 @@ export default function Home() {
                 Material UI, Tailwind CSS, Shadcn/UI
               </p>
               <p>
-                <strong>DevOps:</strong> Heroku, Netlify
+                <strong>DevOps:</strong> Vercel
               </p>
               <p>
                 <strong>Tools:</strong> Git, GitHub, Visual Studio Code, npm,
