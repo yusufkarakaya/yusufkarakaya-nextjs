@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <>
       <main className="flex justify-center">
-        <div className="w-5/12">
-          <div className="justify-center mt-20">
-            <h1 className="text-2xl ">
-              <strong>Yusuf Karakaya</strong>
+        <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
+          <div className="justify-center">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">
+              Yusuf Karakaya
             </h1>
-            <p className="mt-5">
+            <p className="mt-5 text-sm md:text-base">
               Experienced Web Developer with over 4 years of expertise in
               full-stack development, specializing in CMS projects like
               WordPress and Webflow. Proficient in modern web technologies,
@@ -17,8 +17,8 @@ export default function Home() {
               focus on building user-friendly and responsive websites.
             </p>
             <br />
-            <strong>Skills:</strong>
-            <div className="mt-2">
+            <strong className="block text-sm md:text-base">Skills:</strong>
+            <div className="mt-2 text-sm md:text-base">
               <p>
                 <strong>Language:</strong> JavaScript, TypeScript
               </p>
@@ -26,7 +26,7 @@ export default function Home() {
                 <strong>Backend:</strong> Node.js, Express.js
               </p>
               <p>
-                <strong>Databases:</strong> MongoDB, PostgreSQL
+                <strong>Databases:</strong> MongoDB
               </p>
               <p>
                 <strong>Frontend:</strong> HTML5, CSS3, Next, React, Bootstrap,
@@ -44,28 +44,26 @@ export default function Home() {
               </p>
             </div>
             <div className="mt-5">
-              <h2>
-                <strong>Experience</strong>
-              </h2>
-              <h4>Senior Associate at RooneyPartners - Oct 2019 - Present</h4>
-              <p>
+              <h2 className="text-lg md:text-xl font-bold">Experience</h2>
+              <h4 className="text-sm md:text-base">
+                Senior Associate at RooneyPartners - Oct 2019 - Present
+              </h4>
+              <p className="text-sm md:text-base">
                 Developed and maintained websites for a wide range of clients.
               </p>
             </div>
-            <div>
-              <div className="mt-5">
-                <h2>
-                  <strong>Education</strong>
-                </h2>
-                <p>
-                  GFN &amp; Bahçeşehir Üniversitesi Wissen Akademie Microsoft
-                  Software and Database Expertise Training | 2014 - 2015
-                </p>
-                <p>Beykent University - Computer Programming | 2012 - 2014</p>
-              </div>
+            <div className="mt-5">
+              <h2 className="text-lg md:text-xl font-bold">Education</h2>
+              <p className="text-sm md:text-base">
+                GFN &amp; Bahçeşehir Üniversitesi Wissen Akademie Microsoft
+                Software and Database Expertise Training | 2014 - 2015
+              </p>
+              <p className="text-sm md:text-base">
+                Beykent University - Computer Programming | 2012 - 2014
+              </p>
             </div>
             <br />
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
               <span className="flex">
                 Linkedin Profile:{" "}
                 <a
@@ -82,7 +80,6 @@ export default function Home() {
                   />
                 </a>
               </span>
-              <br />
               <span className="flex">
                 Github Profile:{" "}
                 <a
@@ -100,11 +97,11 @@ export default function Home() {
                 </a>
               </span>
             </div>
-            <div>
-              <h2 className="mt-5">
-                <strong>Contact Information</strong>
+            <div className="mt-5">
+              <h2 className="text-lg md:text-xl font-bold">
+                Contact Information
               </h2>
-              <p>
+              <p className="text-sm md:text-base">
                 Email:{" "}
                 <a
                   href="mailto:yusufkarakaya92@gmail.com"
@@ -114,11 +111,9 @@ export default function Home() {
                 </a>
               </p>
             </div>
-            <div>
-              <h2 className="mt-5">
-                <strong>Blog</strong>
-              </h2>
-              <p>
+            <div className="mt-5">
+              <h2 className="text-lg md:text-xl font-bold">Blog</h2>
+              <p className="text-sm md:text-base">
                 A Personal Journey:{" "}
                 <a
                   className="text-blue-500"
