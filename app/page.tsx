@@ -65,13 +65,13 @@ export default function Home() {
             <br />
             <div className="flex gap-2 items-center">
               <span className="flex">
-                Linkedin Profile:{" "}
                 <a
-                  className="text-blue-500"
+                  className=" flex"
                   href="https://www.linkedin.com/in/ykarakaya/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  Linkedin Profile:{"  "}
                   <Image
                     src="/assets/linkedin.png"
                     alt="Yusuf Karakaya linkedin"
@@ -81,13 +81,13 @@ export default function Home() {
                 </a>
               </span>
               <span className="flex">
-                Github Profile:{" "}
                 <a
-                  className="text-blue-500"
+                  className=" flex"
                   href="https://github.com/yusufkarakaya"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  Github Profile:{" "}
                   <Image
                     src="/assets/github.png"
                     alt="Yusuf Karakaya github"
