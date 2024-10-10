@@ -9,6 +9,35 @@ const Page = () => {
           <Navbar />
           <div className="mt-5">
             <h2 className="text-lg md:text-xl font-bold">Projects</h2>
+
+            <div className="mt-3">
+              <h3 className="text-md md:text-lg font-semibold">
+                NASA React App
+              </h3>
+              <p className="text-sm md:text-base">
+                A simple NASA Astronomy Picture of the Day (APOD) app built with
+                React. It fetches daily APOD data from NASA's API and caches the
+                data in local storage. Deployed on Vercel.{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://nasa-react-app-taupe.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>{" "}
+                |{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/nasa-react-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </p>
+            </div>
+
             <div className="mt-3">
               <h3 className="text-md md:text-lg font-semibold">
                 E-Procurement Connect: Shopping Platform for Academic
@@ -29,6 +58,7 @@ const Page = () => {
                 </a>
               </p>
             </div>
+
             <div className="mt-3">
               <h3 className="text-md md:text-lg font-semibold">
                 StreamWave Innovations: Digital Agency Website
@@ -44,9 +74,19 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Visit site
+                </a>{" "}
+                |{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/agency-website-nextjs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
                 </a>
               </p>
             </div>
+
             <div className="mt-3">
               <h3 className="text-md md:text-lg font-semibold">
                 Temecula Food Truck: Website
@@ -61,11 +101,22 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Visit site
+                </a>{" "}
+                |{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/foodtruck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
                 </a>
               </p>
             </div>
+
             <div className="mt-5">
               <h2 className="text-lg md:text-xl font-bold">CMS Projects</h2>
+
               <div className="mt-3">
                 <h3 className="text-md md:text-lg font-semibold">Germitec</h3>
                 <p className="text-sm md:text-base">
@@ -83,6 +134,7 @@ const Page = () => {
                   </a>
                 </p>
               </div>
+
               <div className="mt-3">
                 <h3 className="text-md md:text-lg font-semibold">
                   RooneyPartners
@@ -101,6 +153,7 @@ const Page = () => {
                   </a>
                 </p>
               </div>
+
               <div className="mt-3">
                 <h3 className="text-md md:text-lg font-semibold">ICTBio</h3>
                 <p className="text-sm md:text-base">
@@ -117,6 +170,7 @@ const Page = () => {
                   </a>
                 </p>
               </div>
+
               <div className="mt-3">
                 <h3 className="text-md md:text-lg font-semibold">Novele</h3>
                 <p className="text-sm md:text-base">
