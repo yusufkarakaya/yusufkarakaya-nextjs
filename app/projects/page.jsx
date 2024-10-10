@@ -16,8 +16,8 @@ const Page = () => {
               </h3>
               <p className="text-sm md:text-base">
                 A simple NASA Astronomy Picture of the Day (APOD) app built with
-                React. It fetches daily APOD data from NASA's API and caches the
-                data in local storage. Deployed on Vercel.{" "}
+                React. It fetches daily APOD data from NASA&apos;s API and
+                caches the data in local storage. Deployed on Vercel.{" "}
                 <a
                   className="text-blue-500"
                   href="https://nasa-react-app-taupe.vercel.app/"
