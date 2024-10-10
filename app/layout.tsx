@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Poppins, Saira } from "next/font/google";
 import Head from "next/head"; // Import Head component
 import "./globals.css";
 
@@ -7,6 +7,11 @@ const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600", "700"],
+});
+
+const saira = Saira({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +38,7 @@ export default function RootLayout({
         )}
       </Head>
 
-      <body className={poppins.className}>{children}</body>
+      <body className={saira.className}>{children}</body>
     </html>
   );
 }
