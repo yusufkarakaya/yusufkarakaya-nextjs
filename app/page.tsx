@@ -20,7 +20,9 @@ export default function Home() {
             <br />
 
             <div className="mt-2 text-sm md:text-base">
-              <strong className="block text-sm md:text-base">Skills:</strong>
+              <strong className="block text-sm md:text-base">
+                Skills & Experience:
+              </strong>
               <p>
                 <strong>Language:</strong> JavaScript
               </p>
@@ -31,8 +33,8 @@ export default function Home() {
                 <strong>Databases:</strong> MongoDB, PostgreSQL
               </p>
               <p>
-                <strong>Frontend:</strong> HTML5, CSS3, Next, React, Bootstrap,
-                Material UI, Tailwind CSS, Shadcn/UI
+                <strong>Frontend:</strong> HTML5, CSS3, Next.js, React,
+                Bootstrap, Material UI, Tailwind CSS, Shadcn/UI
               </p>
               <p>
                 <strong>DevOps:</strong> Vercel
@@ -44,6 +46,31 @@ export default function Home() {
               <p>
                 <strong>CMS:</strong> WordPress, Webflow
               </p>
+
+              {/* New Experience Section */}
+              <div className="mt-5">
+                <h2 className="text-lg md:text-xl font-bold">Experience</h2>
+                <p className="text-sm md:text-base">
+                  <strong>
+                    RooneyPartners LLC, Senior Associate – Web Development
+                  </strong>{" "}
+                  (Oct 2019 - Oct 2024)
+                </p>
+                <ul className="list-disc ml-5">
+                  <li>
+                    Designed and managed websites using WordPress and Webflow,
+                    integrating updates and implementing new features.
+                  </li>
+                  <li>
+                    Regularly maintained and secured customer websites to ensure
+                    optimal performance.
+                  </li>
+                  <li>
+                    Set up and managed Google Ads campaigns, focusing on
+                    optimizing productivity and reach.
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div className="mt-5">
@@ -63,39 +90,46 @@ export default function Home() {
               </p>
             </div>
             <br />
-            <div className="flex gap-2 items-center">
-              <span className="flex">
-                <a
-                  className=" flex"
-                  href="https://www.linkedin.com/in/ykarakaya/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Linkedin Profile:{"  "}
-                  <Image
-                    src="/assets/linkedin.png"
-                    alt="Yusuf Karakaya linkedin"
-                    width={25}
-                    height={25}
-                  />
-                </a>
-              </span>
-              <span className="flex">
-                <a
-                  className=" flex"
-                  href="https://github.com/yusufkarakaya"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github Profile:{" "}
-                  <Image
-                    src="/assets/github.png"
-                    alt="Yusuf Karakaya github"
-                    width={25}
-                    height={25}
-                  />
-                </a>
-              </span>
+            <div className="flex  gap-2 items-center">
+              <div className="">
+                <h2 className="text-lg md:text-xl font-bold">
+                  Social Profiles
+                </h2>
+                <div className="flex gap-3">
+                  <span className="flex mt-1">
+                    <a
+                      className=" flex"
+                      href="https://www.linkedin.com/in/ykarakaya/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Linkedin Profile:{"  "}
+                      <Image
+                        src="/assets/linkedin.png"
+                        alt="Yusuf Karakaya linkedin"
+                        width={25}
+                        height={25}
+                      />
+                    </a>
+                  </span>
+                  <span className="flex mt-1">
+                    <a
+                      className=" flex"
+                      href="https://github.com/yusufkarakaya"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Github Profile:{" "}
+                      <Image
+                        src="/assets/github.png"
+                        alt="Yusuf Karakaya github"
+                        width={25}
+                        height={25}
+                      />
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
             <div className="mt-5">
               <h2 className="text-lg md:text-xl font-bold">
