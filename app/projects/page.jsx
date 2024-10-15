@@ -10,6 +10,46 @@ const Page = () => {
           <div className="mt-5">
             <h2 className="text-lg md:text-xl font-bold">Projects</h2>
 
+            {/* TechNotes MERN Stack App */}
+            <div className="mt-3">
+              <h3 className="text-md md:text-lg font-semibold">
+                TechNotes MERN Stack App
+              </h3>
+              <p className="text-sm md:text-base">
+                A full-stack notes management application built with the MERN
+                stack (MongoDB, Express, React, Node.js) and Redux Toolkit for
+                state management. It features JWT-based authentication for
+                secure access, allowing users to create, update, and delete
+                notes. Deployed on Render.{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://technotes-api-f7ke.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>{" "}
+                |{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/technotes/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Frontend GitHub Repo
+                </a>{" "}
+                |{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/technotes-backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend GitHub Repo
+                </a>
+              </p>
+            </div>
+
             <div className="mt-3">
               <h3 className="text-md md:text-lg font-semibold">
                 NASA React App
