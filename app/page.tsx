@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Navbar from "@/app/navbar/page";
+import Image from "next/image"
+import Navbar from "@/app/navbar/page"
 export default function Home() {
   return (
     <>
@@ -14,8 +14,9 @@ export default function Home() {
               Experienced Web Developer with over 5 years of expertise in
               full-stack development, specializing in CMS projects like
               WordPress and Webflow. Proficient in modern web technologies,
-              including JavaScript, Next.js, React, and Node.js, with a strong
-              focus on building user-friendly and responsive websites.
+              including JavaScript, Next.js, React, Redux, RTK Query, Node.js,
+              MongoDB with a strong focus on building user-friendly and
+              responsive websites.
             </p>
             <br />
 
@@ -30,14 +31,14 @@ export default function Home() {
                 <strong>Backend:</strong> Node.js, Express.js
               </p>
               <p>
-                <strong>Databases:</strong> MongoDB, PostgreSQL
+                <strong>Databases:</strong> MongoDB
               </p>
               <p>
                 <strong>Frontend:</strong> HTML5, CSS3, Next.js, React,
                 Bootstrap, Material UI, Tailwind CSS, Shadcn/UI
               </p>
               <p>
-                <strong>DevOps:</strong> Vercel
+                <strong>DevOps:</strong> Vercel, Render
               </p>
               <p>
                 <strong>Tools:</strong> Git, GitHub, Visual Studio Code, npm,
@@ -45,6 +46,9 @@ export default function Home() {
               </p>
               <p>
                 <strong>CMS:</strong> WordPress, Webflow
+              </p>
+              <p>
+                <strong>State Management:</strong> Redux, RTK Query
               </p>
 
               {/* New Experience Section */}
@@ -166,5 +170,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  );
+  )
 }
