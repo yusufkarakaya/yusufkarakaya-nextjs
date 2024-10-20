@@ -1,9 +1,10 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '@/app/navbar/page'
 export default function Home() {
   return (
     <>
-      <main className="flex justify-center">
+      <main className="flex justify-center pb-10">
         <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
           <div className="justify-center">
             <Navbar />
@@ -83,7 +84,14 @@ export default function Home() {
             <div className="mt-5">
               <h2 className="text-lg md:text-xl font-bold">Education</h2>
               <p className="text-sm md:text-base">
-                Coding Dojo - Software Development - 2023 - Los Angeles, CA
+                Coding Dojo - Software Development - 2023 - Los Angeles, CA -{' '}
+                <a
+                  href="https://app.diplomasafe.com/en-US/diploma/dbe6d0954f986cbe000af70fcc6fdb901a11b2280/"
+                  target="_blank"
+                  className="text-blue-500 underline underline-offset-2"
+                >
+                  Certificate
+                </a>
               </p>
               <br />
               <p className="text-sm md:text-base">
