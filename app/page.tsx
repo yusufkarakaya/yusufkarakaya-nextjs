@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Navbar from "@/app/navbar/page"
+import Image from 'next/image'
+import Navbar from '@/app/navbar/page'
 export default function Home() {
   return (
     <>
@@ -11,12 +11,14 @@ export default function Home() {
               Yusuf Karakaya
             </h1>
             <p className="mt-5 text-sm md:text-base">
-              Experienced Web Developer with over 5 years of expertise in
-              full-stack development, specializing in CMS projects like
-              WordPress and Webflow. Proficient in modern web technologies,
-              including JavaScript, Next.js, React, Redux, RTK Query, Node.js,
-              MongoDB with a strong focus on building user-friendly and
-              responsive websites.
+              Experienced Web Developer with over 5 years of specialization in
+              frontend development, focusing on building modern, user-friendly,
+              responsive web applications. Proficient in JavaScript, React.js,
+              Redux, RTK Query, HTML, CSS, and Next.js, with hands-on experience
+              in backend technologies like Node.js and MongoDB. Skilled at
+              translating design into seamless, interactive user interfaces, and
+              having a solid background in CMS platforms like WordPress and
+              Webflow for content-driven projects.
             </p>
             <br />
 
@@ -57,7 +59,7 @@ export default function Home() {
                 <p className="text-sm md:text-base">
                   <strong>
                     RooneyPartners LLC, Senior Associate – Web Development
-                  </strong>{" "}
+                  </strong>{' '}
                   (Oct 2019 - Oct 2024)
                 </p>
                 <ul className="list-disc ml-5">
@@ -107,7 +109,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Linkedin Profile:{"  "}
+                      Linkedin Profile:{'  '}
                       <Image
                         src="/assets/linkedin.png"
                         alt="Yusuf Karakaya linkedin"
@@ -123,7 +125,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Github Profile:{" "}
+                      Github Profile:{' '}
                       <Image
                         src="/assets/github.png"
                         alt="Yusuf Karakaya github"
@@ -140,7 +142,7 @@ export default function Home() {
                 Contact Information
               </h2>
               <p className="text-sm md:text-base">
-                Email:{" "}
+                Email:{' '}
                 <a
                   href="mailto:yusufkarakaya92@gmail.com"
                   className="text-blue-500"
@@ -155,7 +157,7 @@ export default function Home() {
             <div className="mt-5">
               <h2 className="text-lg md:text-xl font-bold">Blog</h2>
               <p className="text-sm md:text-base">
-                A Personal Journey:{" "}
+                A Personal Journey:{' '}
                 <a
                   className="text-blue-500"
                   href="https://www.rooneypartners.com/embracing-the-power-of-learning-a-personal-journey/"
