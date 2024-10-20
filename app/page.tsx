@@ -64,8 +64,9 @@ export default function Home() {
                 </p>
                 <ul className="list-disc ml-5">
                   <li>
-                    Designed and managed websites using WordPress and Webflow,
-                    integrating updates and implementing new features.
+                    Designed and managed websites using HTML, CSS, JavaScript,
+                    WordPress, and Webflow, integrating updates and implementing
+                    new features.
                   </li>
                   <li>
                     Regularly maintained and secured customer websites to ensure
