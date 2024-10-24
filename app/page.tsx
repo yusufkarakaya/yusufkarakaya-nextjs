@@ -4,7 +4,7 @@ import Navbar from '@/app/navbar/page'
 export default function Home() {
   return (
     <>
-      <main className="flex justify-center pb-10">
+      <main className="flex justify-center pb-10 ">
         <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
           <div className="justify-center">
             <Navbar />
@@ -161,20 +161,6 @@ export default function Home() {
               </p>
               <p className="text-sm md:text-base">
                 Phone: +1 646-371-6927 | Location: Temecula, California, USA
-              </p>
-            </div>
-            <div className="mt-5">
-              <h2 className="text-lg md:text-xl font-bold">Blog</h2>
-              <p className="text-sm md:text-base">
-                A Personal Journey:{' '}
-                <a
-                  className="text-blue-500"
-                  href="https://www.rooneypartners.com/embracing-the-power-of-learning-a-personal-journey/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  link
-                </a>
               </p>
             </div>
           </div>

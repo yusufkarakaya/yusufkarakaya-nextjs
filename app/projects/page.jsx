@@ -1,9 +1,9 @@
-import React from "react";
-import Navbar from "../navbar/page";
+import React from 'react'
+import Navbar from '../navbar/page'
 
 const Page = () => {
   return (
-    <main className="flex justify-center">
+    <main className="flex justify-center pb-10">
       <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
         <div className="justify-center">
           <Navbar />
@@ -13,6 +13,43 @@ const Page = () => {
             {/* TechNotes MERN Stack App */}
             <div className="mt-3">
               <h3 className="text-md md:text-lg font-semibold">
+                ThreadCraft E-Commerce App
+              </h3>
+              <p className="text-sm md:text-base">
+                I built this project to learn and understand how full-stack
+                development works for e-commerce projects. My goal was to cover
+                topics like JWT, state management, cloud image uploads,
+                endpoints, caching, routing, and more.. Deployed on Render.{' '}
+                <a
+                  className="text-blue-500"
+                  href="https://threadcraft-ecommerce.onrender.com/#/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo
+                </a>{' '}
+                |{' '}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/ThreadCraft-eCommerce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Frontend GitHub Repo
+                </a>{' '}
+                |{' '}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/yusufkarakaya/e-commerce-api"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Backend GitHub Repo
+                </a>
+              </p>
+            </div>
+            <div className="mt-3">
+              <h3 className="text-md md:text-lg font-semibold">
                 TechNotes MERN Stack App
               </h3>
               <p className="text-sm md:text-base">
@@ -20,7 +57,7 @@ const Page = () => {
                 stack (MongoDB, Express, React, Node.js) and Redux Toolkit for
                 state management. It features JWT-based authentication for
                 secure access, allowing users to create, update, and delete
-                notes. Deployed on Render.{" "}
+                notes. Deployed on Render.{' '}
                 <a
                   className="text-blue-500"
                   href="https://technotes-api-f7ke.onrender.com/"
@@ -28,8 +65,8 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Live Demo
-                </a>{" "}
-                |{" "}
+                </a>{' '}
+                |{' '}
                 <a
                   className="text-blue-500"
                   href="https://github.com/yusufkarakaya/technotes/tree/main"
@@ -37,8 +74,8 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Frontend GitHub Repo
-                </a>{" "}
-                |{" "}
+                </a>{' '}
+                |{' '}
                 <a
                   className="text-blue-500"
                   href="https://github.com/yusufkarakaya/technotes-backend"
@@ -57,7 +94,7 @@ const Page = () => {
               <p className="text-sm md:text-base">
                 A simple NASA Astronomy Picture of the Day (APOD) app built with
                 React. It fetches daily APOD data from NASA&apos;s API and
-                caches the data in local storage. Deployed on Vercel.{" "}
+                caches the data in local storage. Deployed on Vercel.{' '}
                 <a
                   className="text-blue-500"
                   href="https://nasa-react-app-taupe.vercel.app/"
@@ -65,8 +102,8 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Live Demo
-                </a>{" "}
-                |{" "}
+                </a>{' '}
+                |{' '}
                 <a
                   className="text-blue-500"
                   href="https://github.com/yusufkarakaya/nasa-react-app"
@@ -87,7 +124,7 @@ const Page = () => {
                 Designing and developing the entire website using Next.js,
                 Tailwind CSS, and ShadCN. Created a user-friendly landing page
                 and additional components to enhance user interaction.
-                <strong> (Currently working) </strong>{" "}
+                <strong> (Currently working) </strong>{' '}
                 <a
                   className="text-blue-500"
                   href="https://esatys-frontend.vercel.app/"
@@ -106,7 +143,7 @@ const Page = () => {
               <p className="text-sm md:text-base">
                 Built a modern, responsive website using Next.js and Tailwind
                 CSS, and connected it to Formspree for easy communication. Used
-                GitHub to track changes and Vercel to host the site.{" "}
+                GitHub to track changes and Vercel to host the site.{' '}
                 <a
                   className="text-blue-500"
                   href="https://agency-website-nextjs-five.vercel.app/"
@@ -114,8 +151,8 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Visit site
-                </a>{" "}
-                |{" "}
+                </a>{' '}
+                |{' '}
                 <a
                   className="text-blue-500"
                   href="https://github.com/yusufkarakaya/agency-website-nextjs"
@@ -133,7 +170,7 @@ const Page = () => {
               </h3>
               <p className="text-sm md:text-base">
                 The website is built with Next.js and Tailwind CSS and uses
-                Swiper for the slider.{" "}
+                Swiper for the slider.{' '}
                 <a
                   className="text-blue-500"
                   href="https://foodtruck-roan.vercel.app/"
@@ -141,8 +178,8 @@ const Page = () => {
                   rel="noopener noreferrer"
                 >
                   Visit site
-                </a>{" "}
-                |{" "}
+                </a>{' '}
+                |{' '}
                 <a
                   className="text-blue-500"
                   href="https://github.com/yusufkarakaya/foodtruck"
@@ -163,7 +200,7 @@ const Page = () => {
                   Built and maintained a responsive Webflow site for a
                   healthcare tech company, focusing on making it easy to use and
                   fast.
-                  <strong> (Webflow) </strong>{" "}
+                  <strong> (Webflow) </strong>{' '}
                   <a
                     className="text-blue-500"
                     href="https://www.germitec.com/"
@@ -182,7 +219,7 @@ const Page = () => {
                 <p className="text-sm md:text-base">
                   Created a clean, professional WordPress site for a PR firm,
                   ensuring it works well on all devices.
-                  <strong> (WordPress) </strong>{" "}
+                  <strong> (WordPress) </strong>{' '}
                   <a
                     className="text-blue-500"
                     href="https://www.rooneypartners.com/"
@@ -199,7 +236,7 @@ const Page = () => {
                 <p className="text-sm md:text-base">
                   Designed and set up a custom WordPress site for a biotech
                   company, adding features to manage complex content.
-                  <strong> (WordPress) </strong>{" "}
+                  <strong> (WordPress) </strong>{' '}
                   <a
                     className="text-blue-500"
                     href="https://www.ictbio.com/"
@@ -216,7 +253,7 @@ const Page = () => {
                 <p className="text-sm md:text-base">
                   Built a sleek and modern Webflow site for a tech startup,
                   focusing on seamless user experience and responsive design.
-                  <strong> (Webflow) </strong>{" "}
+                  <strong> (Webflow) </strong>{' '}
                   <a
                     className="text-blue-500"
                     href="https://www.novele.com/"
@@ -232,7 +269,7 @@ const Page = () => {
         </div>
       </div>
     </main>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page
