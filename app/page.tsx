@@ -1,17 +1,23 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '@/app/navbar/page'
+import HyperText from '@/components/ui/hyper-text'
+import { Button } from '@/components/ui/button'
+
 export default function Home() {
   return (
     <>
       <main className="flex justify-center pb-10 ">
-        <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
+        <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 ">
           <div className="justify-center">
             <Navbar />
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">
-              Yusuf Karakaya
-            </h1>
-            <p className="mt-5 text-sm md:text-base">
+            {/* <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">
+              
+            </h1> */}
+            <HyperText
+              className="text-4xl font-bold text-black dark:text-white"
+              text="Yusuf Karakaya"
+            />
+            <p className=" text-sm md:text-base">
               Experienced Web Developer with over 5 years of specialization in
               frontend development, focusing on building modern, user-friendly,
               responsive web applications. Proficient in JavaScript, React.js,
@@ -24,36 +30,17 @@ export default function Home() {
             <br />
 
             <div className="mt-2 text-sm md:text-base">
-              <strong className="block text-sm md:text-base">
-                Skills & Experience:
-              </strong>
-              <p>
-                <strong>Language:</strong> JavaScript
-              </p>
-              <p>
-                <strong>Backend:</strong> Node.js, Express.js
-              </p>
-              <p>
-                <strong>Databases:</strong> MongoDB
-              </p>
-              <p>
-                <strong>Frontend:</strong> HTML5, CSS3, Next.js, React,
-                Bootstrap, Material UI, Tailwind CSS, Shadcn/UI
-              </p>
-              <p>
-                <strong>DevOps:</strong> Vercel, Render
-              </p>
-              <p>
-                <strong>Tools:</strong> Git, GitHub, Visual Studio Code, npm,
-                Google Analytics, Google Tag Manager, Google Ads
-              </p>
-              <p>
-                <strong>CMS:</strong> WordPress, Webflow
-              </p>
-              <p>
-                <strong>State Management:</strong> Redux, RTK Query
-              </p>
-
+              <strong className="block text-sm md:text-base">Skills:</strong>
+              <section className="flex gap-1">
+                <Button>JavaScript</Button>
+                <Button>Reactjs</Button>
+                <Button>Node.js</Button>
+                <Button>MongoDB</Button>
+                <Button>Redux Toolkit</Button>
+                <Button>TailwindCSS</Button>
+                <Button>HTML</Button>
+                <Button>CSS</Button>
+              </section>
               {/* New Experience Section */}
               <div className="mt-5">
                 <h2 className="text-lg md:text-xl font-bold">Experience</h2>

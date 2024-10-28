@@ -1,17 +1,21 @@
 import React from 'react'
 import Navbar from '../navbar/page'
+import HyperText from '@/components/ui/hyper-text'
 
 const Page = () => {
   return (
     <main className="flex justify-center pb-10">
-      <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 md:mt-20">
+      <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10">
         <div className="justify-center">
           <Navbar />
-          <div className="mt-5">
-            <h2 className="text-lg md:text-xl font-bold">Projects</h2>
+          <div className="">
+            <HyperText
+              className="text-4xl font-bold text-black dark:text-white"
+              text="Projects"
+            />
 
             {/* TechNotes MERN Stack App */}
-            <div className="mt-3">
+            <div className="">
               <h3 className="text-md md:text-lg font-semibold">
                 ThreadCraft E-Commerce App
               </h3>
