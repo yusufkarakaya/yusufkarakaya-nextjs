@@ -7,13 +7,17 @@ export default function Home() {
   return (
     <>
       <main className="flex justify-center pb-10 ">
-        <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 ">
+        <div
+          key="main-container"
+          className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12 mt-10 "
+        >
           <div className="justify-center">
-            <Navbar />
+            <Navbar key="navbar" />
             {/* <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">
               
-            </h1> */}
+              </h1> */}
             <HyperText
+              key="hypertext"
               className="text-4xl font-bold text-black dark:text-white"
               text="Yusuf Karakaya"
             />
@@ -27,19 +31,20 @@ export default function Home() {
               having a solid background in CMS platforms like WordPress and
               Webflow for content-driven projects.
             </p>
-            <br />
 
-            <div className="mt-2 text-sm md:text-base">
-              <strong className="block text-sm md:text-base">Skills:</strong>
-              <section className="flex gap-1">
-                <Button>JavaScript</Button>
-                <Button>Reactjs</Button>
-                <Button>Node.js</Button>
-                <Button>MongoDB</Button>
-                <Button>Redux Toolkit</Button>
-                <Button>TailwindCSS</Button>
-                <Button>HTML</Button>
-                <Button>CSS</Button>
+            <div className="mt-5 text-sm md:text-base">
+              <strong className="block  ">Skills:</strong>
+              <section className="flex flex-wrap gap-1">
+                <Button key="js">JavaScript</Button>
+                <Button key="react">Reactjs</Button>
+                <Button key="node">Node.js</Button>
+                <Button key="mongo">MongoDB</Button>
+                <Button key="redux">Redux Toolkit</Button>
+                <Button key="tailwind">TailwindCSS</Button>
+                <Button key="html">HTML</Button>
+                <Button key="css">CSS</Button>
+                <Button key="wp">WordPress</Button>
+                <Button key="webflow">Webflow</Button>
               </section>
               {/* New Experience Section */}
               <div className="mt-5">
@@ -70,7 +75,7 @@ export default function Home() {
 
             <div className="mt-5">
               <h2 className="text-lg md:text-xl font-bold">Education</h2>
-              <p className="text-sm md:text-base">
+              <p className="mb-1 text-sm md:text-base">
                 Coding Dojo - Software Development - 2023 - Los Angeles, CA -{' '}
                 <a
                   href="https://app.diplomasafe.com/en-US/diploma/dbe6d0954f986cbe000af70fcc6fdb901a11b2280/"
@@ -80,12 +85,10 @@ export default function Home() {
                   Certificate
                 </a>
               </p>
-              <br />
-              <p className="text-sm md:text-base">
+              <p className="mb-1 text-sm md:text-base">
                 GFN & Bahçeşehir Üniversitesi Wissen Akademie Microsoft Software
                 and Database Expertise Training | 2016
               </p>
-              <br />
               <p className="text-sm md:text-base">
                 Beykent University - Computer Programming - 2010, 2012 -
                 Istanbul, Turkiye
@@ -100,12 +103,11 @@ export default function Home() {
                 <div className="flex gap-3">
                   <span className="flex mt-1">
                     <a
-                      className=" flex"
+                      className="flex transform transition-transform duration-300 hover:scale-110 hover:brightness-125"
                       href="https://www.linkedin.com/in/ykarakaya/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Linkedin Profile:{'  '}
                       <Image
                         src="/assets/linkedin.png"
                         alt="Yusuf Karakaya linkedin"
@@ -116,12 +118,11 @@ export default function Home() {
                   </span>
                   <span className="flex mt-1">
                     <a
-                      className=" flex"
+                      className="flex transform transition-transform duration-300 hover:scale-110 hover:brightness-125"
                       href="https://github.com/yusufkarakaya"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Github Profile:{' '}
                       <Image
                         src="/assets/github.png"
                         alt="Yusuf Karakaya github"

@@ -25,7 +25,7 @@ const Page = () => {
                 topics like JWT, state management, cloud image uploads,
                 endpoints, caching, routing, and more.. Deployed on Render.{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://threadcraft-ecommerce.onrender.com/#/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Page = () => {
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://github.com/yusufkarakaya/ThreadCraft-eCommerce"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -43,46 +43,8 @@ const Page = () => {
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://github.com/yusufkarakaya/e-commerce-api"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Backend GitHub Repo
-                </a>
-              </p>
-            </div>
-            <div className="mt-3">
-              <h3 className="text-md md:text-lg font-semibold">
-                TechNotes MERN Stack App
-              </h3>
-              <p className="text-sm md:text-base">
-                A full-stack notes management application built with the MERN
-                stack (MongoDB, Express, React, Node.js) and Redux Toolkit for
-                state management. It features JWT-based authentication for
-                secure access, allowing users to create, update, and delete
-                notes. Deployed on Render.{' '}
-                <a
-                  className="text-blue-500"
-                  href="https://technotes-api-f7ke.onrender.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Demo
-                </a>{' '}
-                |{' '}
-                <a
-                  className="text-blue-500"
-                  href="https://github.com/yusufkarakaya/technotes/tree/main"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Frontend GitHub Repo
-                </a>{' '}
-                |{' '}
-                <a
-                  className="text-blue-500"
-                  href="https://github.com/yusufkarakaya/technotes-backend"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,7 +62,7 @@ const Page = () => {
                 React. It fetches daily APOD data from NASA&apos;s API and
                 caches the data in local storage. Deployed on Vercel.{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://nasa-react-app-taupe.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -109,7 +71,7 @@ const Page = () => {
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://github.com/yusufkarakaya/nasa-react-app"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -130,12 +92,12 @@ const Page = () => {
                 and additional components to enhance user interaction.
                 <strong> (Currently working) </strong>{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://esatys-frontend.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Demo link
+                  Live Demo
                 </a>
               </p>
             </div>
@@ -149,16 +111,16 @@ const Page = () => {
                 CSS, and connected it to Formspree for easy communication. Used
                 GitHub to track changes and Vercel to host the site.{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://agency-website-nextjs-five.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Visit site
+                  Live Demo
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://github.com/yusufkarakaya/agency-website-nextjs"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -176,16 +138,16 @@ const Page = () => {
                 The website is built with Next.js and Tailwind CSS and uses
                 Swiper for the slider.{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://foodtruck-roan.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Visit site
+                  Live Demo
                 </a>{' '}
                 |{' '}
                 <a
-                  className="text-blue-500"
+                  className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                   href="https://github.com/yusufkarakaya/foodtruck"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -206,7 +168,7 @@ const Page = () => {
                   fast.
                   <strong> (Webflow) </strong>{' '}
                   <a
-                    className="text-blue-500"
+                    className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                     href="https://www.germitec.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -225,7 +187,7 @@ const Page = () => {
                   ensuring it works well on all devices.
                   <strong> (WordPress) </strong>{' '}
                   <a
-                    className="text-blue-500"
+                    className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                     href="https://www.rooneypartners.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -242,7 +204,7 @@ const Page = () => {
                   company, adding features to manage complex content.
                   <strong> (WordPress) </strong>{' '}
                   <a
-                    className="text-blue-500"
+                    className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                     href="https://www.ictbio.com/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -259,7 +221,7 @@ const Page = () => {
                   focusing on seamless user experience and responsive design.
                   <strong> (Webflow) </strong>{' '}
                   <a
-                    className="text-blue-500"
+                    className="font-semibold underline underline-offset-2 inline-block transform transition-transform duration-300 hover:scale-105"
                     href="https://www.novele.com/"
                     target="_blank"
                     rel="noopener noreferrer"
