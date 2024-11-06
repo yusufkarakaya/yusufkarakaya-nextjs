@@ -22,14 +22,10 @@ export default function Home() {
               text="Yusuf Karakaya"
             />
             <p className=" text-sm md:text-base">
-              Experienced Web Developer with over 5 years of specialization in
-              frontend development, focusing on building modern, user-friendly,
-              responsive web applications. Proficient in JavaScript, React.js,
-              Redux, RTK Query, HTML, CSS, and Next.js, with hands-on experience
-              in backend technologies like Node.js and MongoDB. Skilled at
-              translating design into seamless, interactive user interfaces, and
-              having a solid background in CMS platforms like WordPress and
-              Webflow for content-driven projects.
+              Web Developer with 5+ years in frontend development, skilled in
+              JavaScript, React, Next.js, and backend tech like Node.js and
+              MongoDB. Experienced in creating responsive UIs and managing
+              content with CMS platforms such as WordPress and Webflow.
             </p>
 
             <div className="mt-5 text-sm md:text-base">
@@ -57,17 +53,30 @@ export default function Home() {
                 </p>
                 <ul className="list-disc ml-5">
                   <li>
-                    Designed and managed websites using HTML, CSS, JavaScript,
-                    WordPress, and Webflow, integrating updates and implementing
-                    new features.
+                    Developed and managed responsive websites using HTML, CSS,
+                    JavaScript, WordPress, and Webflow, integrating new features
+                    to enhance user experience and functionality.
                   </li>
                   <li>
-                    Regularly maintained and secured customer websites to ensure
-                    optimal performance.
+                    Optimized site performance through code refinement, asset
+                    management, and regular speed and security audits, improving
+                    load times and reliability.
                   </li>
                   <li>
-                    Set up and managed Google Ads campaigns, focusing on
-                    optimizing productivity and reach.
+                    Collaborated with designers and stakeholders to transform
+                    visual concepts into interactive, accessible web pages,
+                    ensuring brand alignment.
+                  </li>
+                  <li>
+                    Implemented analytics infrastructure by adding code snippets
+                    for campaign tracking, Google Analytics, and event tracking,
+                    providing actionable insights into user behavior and
+                    campaign effectiveness.
+                  </li>
+                  <li>
+                    Integrated APIs and third-party tools for dynamic content,
+                    custom forms, and enhanced interactivity across client
+                    sites.
                   </li>
                 </ul>
               </div>
