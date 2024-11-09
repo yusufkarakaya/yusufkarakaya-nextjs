@@ -31,16 +31,36 @@ export default function Home() {
             <div className="mt-5 text-sm md:text-base">
               <strong className="block  ">Skills:</strong>
               <section className="flex flex-wrap gap-1">
-                <Button key="js">JavaScript</Button>
-                <Button key="react">Reactjs</Button>
-                <Button key="node">Node.js</Button>
-                <Button key="mongo">MongoDB</Button>
-                <Button key="redux">Redux Toolkit</Button>
-                <Button key="tailwind">TailwindCSS</Button>
-                <Button key="html">HTML</Button>
-                <Button key="css">CSS</Button>
-                <Button key="wp">WordPress</Button>
-                <Button key="webflow">Webflow</Button>
+                <Button key="js" className="cursor-auto">
+                  JavaScript
+                </Button>
+                <Button key="react" className="cursor-auto">
+                  Reactjs
+                </Button>
+                <Button key="node" className="cursor-auto">
+                  Node.js
+                </Button>
+                <Button key="mongo" className="cursor-auto">
+                  MongoDB
+                </Button>
+                <Button key="redux" className="cursor-auto">
+                  Redux Toolkit
+                </Button>
+                <Button key="tailwind" className="cursor-auto">
+                  TailwindCSS
+                </Button>
+                <Button key="html" className="cursor-auto">
+                  HTML
+                </Button>
+                <Button key="css" className="cursor-auto">
+                  CSS
+                </Button>
+                <Button key="wp" className="cursor-auto">
+                  WordPress
+                </Button>
+                <Button key="webflow" className="cursor-auto">
+                  Webflow
+                </Button>
               </section>
               {/* New Experience Section */}
               <div className="mt-5">
@@ -157,7 +177,7 @@ export default function Home() {
                 </a>
               </p>
               <p className="text-sm md:text-base">
-                Phone: +1 646-371-6927 | Location: Temecula, California, USA
+                Phone: +1 646-371-6927 | Location: Los Angeles, California, USA
               </p>
             </div>
           </div>
