@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import ShinyButton from '@/components/ui/shiny-button'
 import { Button } from '@/components/ui/button'
 
 const page = () => {

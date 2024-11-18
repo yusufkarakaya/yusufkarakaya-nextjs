@@ -13,9 +13,6 @@ export default function Home() {
         >
           <div className="justify-center">
             <Navbar key="navbar" />
-            {/* <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">
-              
-              </h1> */}
             <HyperText
               key="hypertext"
               className="text-4xl font-bold text-black dark:text-white"

@@ -14,7 +14,6 @@ const Page = () => {
               text="Projects"
             />
 
-            {/* TechNotes MERN Stack App */}
             <div className="">
               <h3 className="text-md md:text-lg font-semibold">
                 ThreadCraft E-Commerce App

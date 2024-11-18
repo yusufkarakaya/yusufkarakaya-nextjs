@@ -1,13 +1,7 @@
 import type { Metadata } from 'next'
-import { Inter, Poppins, Saira } from 'next/font/google'
-import Head from 'next/head' // Import Head component
+import { Saira } from 'next/font/google'
+import Head from 'next/head'
 import './globals.css'
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  weight: ['400', '500', '600', '700'],
-})
 
 const saira = Saira({
   subsets: ['latin'],
