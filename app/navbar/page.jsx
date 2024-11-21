@@ -8,7 +8,6 @@ const page = () => {
       <Link href="/">
         <Button variant="outline">About</Button>
       </Link>
-      -
       <Link href="/projects">
         <Button variant="outline">Projects</Button>
       </Link>
